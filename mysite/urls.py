@@ -19,6 +19,7 @@ from webapp import views
 
 
 urlpatterns = [
+    url(r'^admin/', admin.site.urls, name='admin'),
     url(r'^$', views.Index.as_view(), name='index'),
     url(r'^about/$', views.About.as_view(), name='about'),
     url(r'^_events/$', views.PartialEvents.as_view(), name='api_events'),
