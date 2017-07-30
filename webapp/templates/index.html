@@ -65,7 +65,7 @@
     <script type="text/javascript">
 
         function loadEvents() {
-            const URL = "/webapp/_events/";
+            const URL = "/_events/";
 
             $.ajax({
                 type: "GET",
@@ -74,7 +74,7 @@
                     $("#events").html(html);
                 },
                 error: function(err) {
-                    alert("Error loading events"+err);
+                    alert("Error loading events");
                 }
             })
         }

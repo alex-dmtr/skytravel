@@ -26,6 +26,9 @@ class Index(TemplateView):
         return redirect('/')
 
 
+class About(TemplateView):
+    template_name = 'about.html'
+
 class PartialEvents(ListView):
     model = Event
     template_name = "_events.html"

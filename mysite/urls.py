@@ -15,10 +15,12 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 from django.contrib import admin
-from . import views
+from webapp import views
+
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
-    url(r'^$', views.redirect_webapp),
-    url(r'^webapp/', include('webapp.urls')),
+    url(r'^$', views.Index.as_view(), name='index'),
+    url(r'^about/$', views.About.as_view(), name='about'),
+    url(r'^_events/$', views.PartialEvents.as_view(), name='api_events'),
+    url(r'^cities/(?P<slug>[\w-]+)/$', views.CityDetail.as_view(), name='city'),
 ]
