@@ -21,8 +21,8 @@ class Index(TemplateView):
         return context
 
     def post(self, request):
-        newEvent = Event(name=request.POST['name'])
-        newEvent.save()
+        new_event = Event(name=request.POST['name'])
+        new_event.save()
         return redirect('/')
 
 

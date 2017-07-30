@@ -34,7 +34,7 @@
                             {% load cities %}
                             {% get_cities as cities %}
                             {% for city in cities %}
-                                <li><a href="{% url 'city' city.to_slug %}">{{ city.name }}</a></li>
+                                <li><a href="{{ city.get_absolute_url }}">{{ city.name }}</a></li>
                             {% endfor %}
 
 

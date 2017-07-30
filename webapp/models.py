@@ -8,9 +8,11 @@ class City(models.Model):
     image = models.CharField(max_length=500)
     subtitle = models.CharField(max_length=500)
 
+    def get_absolute_url(self):
+        return '/cities/%s' % self.to_slug()
+
     def __str__(self):
         return self.name
-
 
     def to_slug(self):
         return slugify(self.name)

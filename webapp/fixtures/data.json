@@ -2,7 +2,7 @@
   {
     "model": "webapp.city",
     "fields": {
-        "name": "Bucuresti",
+        "name": "București",
         "image": "/static/img/palatul-parlamentului.jpeg",
         "subtitle": "Palatul parlamentului"
     }
@@ -10,7 +10,7 @@
   {
     "model": "webapp.city",
     "fields": {
-        "name": "Brasov",
+        "name": "Brașov",
         "image": "/static/img/brasov.jpg",
         "subtitle": "Piata Sfatului"
     }
@@ -22,6 +22,22 @@
       "image": "/static/img/cluj.jpg"
     }
   },
+  {
+    "model": "webapp.city",
+    "fields": {
+        "name": "Piatra Neamț",
+        "image": "http://www.ceoi2016.ro/wp-content/uploads/2016/04/coco.jpg"
+    }
+  },
+  {
+    "model": "webapp.city",
+    "fields": {
+      "name": "Constanța",
+      "image": "http://a1.ro/uploads/modules/news/0/2016/6/4/495960/14650388395c1370dc.jpg"
+    }
+  },
+
+
 
   {
     "model": "webapp.location",
