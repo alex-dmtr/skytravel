@@ -4,9 +4,13 @@ body {
     line-height: 1.6;
     font-size: 18px;
     color: #444;
-    padding: 0 10px;
+    padding-bottom: 20px;
 }
 
 h1,h2,h3 {
     line-height: 1.2
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
 }
