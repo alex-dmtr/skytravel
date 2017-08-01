@@ -7,7 +7,9 @@ from webapp.models import City, Event, Location
 class EventAdmin(admin.ModelAdmin):
     list_display = ('name', 'date')
 
+class LocationAdmin(admin.ModelAdmin):
+    list_display =  ('name', 'city')
 
 admin.site.register(City)
-admin.site.register(Location)
+admin.site.register(Location, LocationAdmin)
 admin.site.register(Event, EventAdmin)
