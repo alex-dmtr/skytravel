@@ -1,0 +1,79 @@
+[
+  {
+    "pk": 1,
+    "model": "webapp.city",
+    "fields": {
+        "name": "București",
+        "image": "/static/img/palatul-parlamentului.jpeg",
+        "subtitle": "Palatul parlamentului"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "webapp.city",
+    "fields": {
+        "name": "Brașov",
+        "image": "/static/img/brasov.jpg",
+        "subtitle": "Piata Sfatului"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "webapp.city",
+    "fields": {
+      "name": "Cluj-Napoca",
+      "image": "/static/img/cluj.jpg"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "webapp.city",
+    "fields": {
+        "name": "Piatra Neamț",
+        "image": "http://www.ceoi2016.ro/wp-content/uploads/2016/04/coco.jpg"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "webapp.city",
+    "fields": {
+      "name": "Constanța",
+      "image": "http://a1.ro/uploads/modules/news/0/2016/6/4/495960/14650388395c1370dc.jpg"
+    }
+  },
+
+
+
+  {
+    "model": "webapp.location",
+    "fields": {
+      "name": "Teatrul Elisabeta",
+      "image": "/static/img/teatrul-elisabeta.jpg",
+      "link": "http://www.teatrulelisabeta.ro/",
+      "description": "Teatrul Elisabeta este un loc special in care se imbina actul artistic, cu divertismentul si socializarea. Este un loc in care arta nu este o experienta pasiva, in care spectatorul este participant, vrea sa se implice si sa impartaseasca cu cei din jur ceea ce traieste si simte. Este un loc in care se formeaza si se consolideaza o comunitate – comunitatea celor care vor sa experimenteze arta si divertismentul de calitate.",
+      "city": 1
+    }
+  },
+
+  {
+    "model": "webapp.location",
+    "fields": {
+      "name": "Parcul Cismigiu",
+      "image": "/static/img/parcul-cismigiu.jpg",
+      "link": "http://www.cismigiuparc.ro/",
+      "description": "Parcul Cismigiu este situat in centrul orasului Bucuresti si este cea mai veche gradina publica din Bucuresti. Parcul Cismigiu are o suprafata de cca 15,59 ha. Parcul Cismigiu este delimitat de B-dul Regina Elisabeta ( 2 intrari ) - B-dul Schitu Magureanu ( 5 intrari ) - Str. Stirbei Voda ( 1 intrare ). In partea sud-vestica a gradinii se afla Colegiul National Gheorghe Lazar. Gradina Cismigiu este clasata pe lista monumentelor istorice din Bucuresti. ",
+      "city": 1
+    }
+  },
+
+  {
+    "model": "webapp.event",
+    "fields": {
+      "name": "Fratii Karamazov",
+      "image": "/static/img/fratii-karamazov.jpg",
+      "date": "2016-04-24 19:00",
+      "description": "Dimitri este un exponent al senzualitatii si al trupului, in timp ce Ivan reprezinta intelectul si ratiunea iar Aleoşa este simbolul trairii spirituale. Acestia sunt \"Fratii Karamazov\", trei personaje memorabile, interpretate impecabil. Hai sa vezi un spectacol complex plin de vitalitate si profunzime despre OM si trairile sale, joi, 26 mai, de la ora 19:00.",
+      "link": "https://www.facebook.com/events/1535774883399106/"
+    }
+  }
+]
