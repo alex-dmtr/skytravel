@@ -31,7 +31,7 @@ class About(TemplateView):
 
 class PartialEvents(ListView):
     model = Event
-    template_name = "_events.html"
+    template_name = "partials/events.html"
     context_object_name = "events"
 
 
